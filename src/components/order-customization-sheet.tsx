@@ -65,7 +65,7 @@ export default function OrderCustomizationSheet({
                       </div>
                       {option.priceModifier && (
                         <span className="text-sm text-muted-foreground">
-                          +€{option.priceModifier.toFixed(2)}
+                          +₹{option.priceModifier.toFixed(2)}
                         </span>
                       )}
                     </div>
@@ -88,7 +88,7 @@ export default function OrderCustomizationSheet({
                       </div>
                       {option.priceModifier && (
                         <span className="text-sm text-muted-foreground">
-                          +€{option.priceModifier.toFixed(2)}
+                          +₹{option.priceModifier.toFixed(2)}
                         </span>
                       )}
                     </div>
@@ -103,7 +103,7 @@ export default function OrderCustomizationSheet({
                 <Separator />
                 <div className="flex justify-between items-center text-xl font-bold">
                     <span>Total</span>
-                    <span>€{meal.price.toFixed(2)}</span>
+                    <span>₹{meal.price.toFixed(2)}</span>
                 </div>
                 <Button size="lg" className="w-full" onClick={handleAddToCart}>
                     Add to cart

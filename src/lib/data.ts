@@ -8,7 +8,7 @@ export const restaurants: Restaurant[] = [
     cuisine: 'Italian',
     rating: 4.5,
     deliveryTime: 25,
-    price: '€€',
+    price: '₹₹',
     imageId: 'bella-italia-hero',
     menu: [
       {
@@ -63,7 +63,7 @@ export const restaurants: Restaurant[] = [
     cuisine: 'Japanese',
     rating: 4.8,
     deliveryTime: 35,
-    price: '€€€',
+    price: '₹₹₹',
     imageId: 'sushi-zen-hero',
     menu: [
       {
@@ -101,7 +101,7 @@ export const restaurants: Restaurant[] = [
     cuisine: 'American',
     rating: 4.2,
     deliveryTime: 20,
-    price: '€',
+    price: '₹',
     imageId: 'burger-bliss-hero',
     menu: [
       {
@@ -148,7 +148,7 @@ export const restaurants: Restaurant[] = [
     cuisine: 'Mexican',
     rating: 4.6,
     deliveryTime: 30,
-    price: '€€',
+    price: '₹₹',
     imageId: 'taco-fiesta-hero',
     menu: [
       {

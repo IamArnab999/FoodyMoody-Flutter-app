@@ -20,7 +20,7 @@ function MenuItem({ item }: { item: Meal }) {
       <div className="flex-1 pr-4">
         <h4 className="font-semibold text-base">{item.name}</h4>
         <p className="text-sm text-muted-foreground mt-1">{item.description}</p>
-        <p className="text-base font-semibold mt-2">€{item.price.toFixed(2)}</p>
+        <p className="text-base font-semibold mt-2">₹{item.price.toFixed(2)}</p>
       </div>
       <div className="flex flex-col items-end gap-2">
         {image && (
