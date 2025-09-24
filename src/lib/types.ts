@@ -5,7 +5,7 @@ export interface Restaurant {
   cuisine: string;
   rating: number;
   deliveryTime: number;
-  price: "₹" | "₹₹" | "₹₹₹";
+  price: "€" | "€€" | "€€€";
   imageId: string;
   menu: Meal[];
 }

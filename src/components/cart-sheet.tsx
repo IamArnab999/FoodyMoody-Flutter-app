@@ -47,7 +47,7 @@ export default function CartSheet() {
                     <p className="font-semibold">{item.meal.name} (x{item.quantity})</p>
                     {/* Could add customizations here */}
                   </div>
-                  <p className="font-semibold">₹{(item.meal.price * item.quantity).toFixed(2)}</p>
+                  <p className="font-semibold">€{(item.meal.price * item.quantity).toFixed(2)}</p>
                 </div>
               ))}
             </div>
@@ -55,15 +55,15 @@ export default function CartSheet() {
             <div className="py-4 space-y-2">
                 <div className="flex justify-between">
                     <p>Subtotal</p>
-                    <p>₹{totalPrice.toFixed(2)}</p>
+                    <p>€{totalPrice.toFixed(2)}</p>
                 </div>
                 <div className="flex justify-between">
                     <p>Delivery Fee</p>
-                    <p>₹{deliveryFee.toFixed(2)}</p>
+                    <p>€{deliveryFee.toFixed(2)}</p>
                 </div>
                 <div className="flex justify-between font-bold text-lg">
                     <p>Total</p>
-                    <p>₹{(totalPrice + deliveryFee).toFixed(2)}</p>
+                    <p>€{(totalPrice + deliveryFee).toFixed(2)}</p>
                 </div>
             </div>
             <SheetFooter>
