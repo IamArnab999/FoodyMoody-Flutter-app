@@ -16,6 +16,7 @@ import { Checkbox } from "./ui/checkbox";
 import { Label } from "./ui/label";
 import { RadioGroup, RadioGroupItem } from "./ui/radio-group";
 import { useToast } from "@/hooks/use-toast";
+import { useCart } from "@/hooks/use-cart";
 
 export default function OrderCustomizationSheet({
   meal,
@@ -25,9 +26,11 @@ export default function OrderCustomizationSheet({
   children: React.ReactNode;
 }) {
     const { toast } = useToast();
+    const { addItem } = useCart();
     const [open, setOpen] = React.useState(false);
 
     const handleAddToCart = () => {
+        addItem(meal);
         toast({
             title: "Added to cart!",
             description: `${meal.name} has been added to your order.`,
