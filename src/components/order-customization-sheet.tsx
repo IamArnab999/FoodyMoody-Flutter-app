@@ -16,7 +16,7 @@ import { Checkbox } from "./ui/checkbox";
 import { Label } from "./ui/label";
 import { RadioGroup, RadioGroupItem } from "./ui/radio-group";
 import { useToast } from "@/hooks/use-toast";
-import { useCart } from "@/hooks/use-cart";
+import { useCart } from "@/hooks/use-cart.tsx";
 
 export default function OrderCustomizationSheet({
   meal,

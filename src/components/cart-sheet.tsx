@@ -14,7 +14,7 @@ import { Button } from "./ui/button";
 import { ShoppingCart, UtensilsCrossed } from "lucide-react";
 import { Separator } from "./ui/separator";
 import { Badge } from "./ui/badge";
-import { useCart } from "@/hooks/use-cart";
+import { useCart } from "@/hooks/use-cart.tsx";
 
 export default function CartSheet() {
   const { items, totalItems, totalPrice } = useCart();

@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 import AppHeader from '@/components/shared/header';
 import AppFooter from '@/components/shared/footer';
-import { CartProvider } from '@/hooks/use-cart';
+import { CartProvider } from '@/hooks/use-cart.tsx';
 
 export const metadata: Metadata = {
   title: 'FoodyMood',
