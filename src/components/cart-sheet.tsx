@@ -17,7 +17,7 @@ export default function CartSheet() {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <Button variant="ghost" size="icon">
+        <Button variant="ghost" size="icon" className="relative">
           <ShoppingCart className="h-5 w-5" />
           <span className="sr-only">Open Cart</span>
           <Badge className="absolute top-1 right-1 h-4 w-4 p-0 flex items-center justify-center text-xs" variant="destructive">2</Badge>
