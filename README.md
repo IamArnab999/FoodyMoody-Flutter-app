@@ -9,6 +9,9 @@ FoodyMoody is a mobile application built with Flutter that helps users discover,
 - Create and manage meal plans
 - Share recipes with friends
 
+---
+![Screenshot of App]("screenshot.png")
+
 ## Getting Started
 
 Follow these steps to run the app locally:
